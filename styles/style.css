@@ -164,7 +164,7 @@ svg {
 
 .dropdown-list {
     width: 100%;
-    top: 99%;
+    top: 48px;
     display: none;
     position: absolute;
     list-style: none;
@@ -492,6 +492,10 @@ svg {
 
     .filters-mobile .dropdown-list {
         z-index: 1;
+    }
+
+    .filters-mobile .dropdown-list::before {
+        content: none
     }
 
     .filters-mobile .dropdown,
